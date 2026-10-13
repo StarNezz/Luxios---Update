@@ -3,8 +3,11 @@
 Signed extension distribution metadata for Luxios Bridge, add-on ID `luxios-firefox@starnezz.lx`.
 Endpoint: https://raw.githubusercontent.com/StarNezz/Luxios---Update/main/updates.json.
 
-The initial update list is empty. Do not add an installable version until its selected Mozilla-signed
-XPI release asset is published, anonymously accessible over HTTPS, and matches the advertised SHA256.
+The update list advertises [1.4.1](https://github.com/StarNezz/Luxios---Update/releases/tag/v1.4.1).
+Its owner-supplied Mozilla-approved XPI was anonymously downloaded over HTTPS and its SHA256 matched
+`0fbac3d6ce9b31d3733d79a810c9c380e6edb44d88d4f560eaee237f516bd8fa` before activating metadata.
+Do not add another installable version until its selected Mozilla-signed XPI release asset is published,
+anonymously accessible over HTTPS, and matches the advertised SHA256.
 Never advertise an unsigned XPI or source ZIP as an installable update. No native host, credentials,
 browser profile, or AI-provider config belongs in this repository.
 
@@ -20,5 +23,17 @@ signature markers alone are not cryptographic proof. Firefox validates Mozilla's
 
 Publication does not prove that Firefox updated successfully. Test with an installed signed bootstrap
 and a higher signed release before making that claim.
+
+## 1.4.1 — 2026-10-13
+
+### Added
+- Shortcuts for YouTube, Spotify, SIAM UB and GitHub; initial Firefox permission grants remain required.
+
+### Changed
+- Simpler popup and reusable, revocable site grants.
+- Self-hosted update channel with a versioned signed asset and SHA256 integrity metadata.
+
+### Fixed
+- Publication version increased after the deleted 1.4.0 upload; site/media behavior is unchanged from 1.4.0.
 
 Official guidance: [Updating your extension](https://extensionworkshop.com/documentation/manage/updating-your-extension/).
