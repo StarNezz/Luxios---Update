@@ -3,9 +3,9 @@
     "luxios-firefox@starnezz.lx": {
       "updates": [
         {
-          "version": "1.4.1",
-          "update_link": "https://github.com/StarNezz/Luxios---Update/releases/download/v1.4.1/Luxios-Bridge-1.4.1-signed.xpi",
-          "update_hash": "sha256:0fbac3d6ce9b31d3733d79a810c9c380e6edb44d88d4f560eaee237f516bd8fa"
+          "version": "1.4.2",
+          "update_link": "https://github.com/StarNezz/Luxios---Update/releases/download/v1.4.2/Luxios-Bridge-1.4.2-signed.xpi",
+          "update_hash": "sha256:415e21433fa968a844fafccb4f393862523eb1d970222dcb88546314e5c5fb22"
         }
       ]
     }
